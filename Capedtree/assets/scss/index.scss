@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    text-align: start;
+    font-family: "Source Sans 3", sans-serif;
+
+}
+
+:root {
+    --background-color: #007aa2;
+    --nav-link: #0dcaf0;
+    --text-color: #007aa2;
+    --secondary-color: #0d6efd;
+    --transition: 0.2s ease-in-out;
+
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.btn-primary {
+
+    background-color: var(--background-color);
+    transition: var(--transition);
+    font-weight: 700;
+    color: #fff;
+
+}
+
+.btn-primary:hover {
+    background-color: var(--secondary-color);
+}
+
+.btn-danger {
+    background-color: #bb2d3b;
+}
+
+.btn-danger:hover {
+    background-color: #ffc107;
+}
+
+
+
+.main-header {
+    background-color: var(--background-color);
+
+    h1 {
+        font-weight: 900;
+        font-size: 320%;
+
+        u {
+            font-size: 100%;
+        }
+    }
+
+    a:hover {
+        color: var(--nav-link) !important;
+    }
+
+    .dropdown {
+        width: 40%;
+        margin-right: 20px;
+    }
+
+}
+
+.main-section {
+
+    a {
+        color: var(--text-color);
+        font-weight: bold;
+        transition: var(--transition);
+    }
+
+    a:hover {
+        color: var(--secondary-color);
+    }
+
+    .col-lg-3 {
+
+        border: 2px solid black;
+        transition: var(--transition);
+        box-shadow: 9px 11px 0px black;
+    }
+
+
+    .Categories-links {
+        div {
+            border: 2px solid red;
+        }
+
+        a {
+            font-weight: 500;
+        }
+
+
+    }
+
+    h1 {
+        font-weight: 900;
+        font-size: 2.6em;
+    }
+}
+
+.blog-section {
+
+
+    h1 {
+        font-weight: 900;
+    }
+
+    a {
+        color: var(--text-color);
+        font-weight: bold;
+        transition: var(--transition);
+    }
+
+    a:hover {
+        color: var(--secondary-color);
+    }
+
+}
+
+.coupon-section {
+    background-color: #007aa2;
+
+    a {
+        color: var(--text-color);
+        font-weight: bold;
+        transition: var(--transition);
+    }
+
+    a:hover {
+        color: var(--secondary-color);
+    }
+
+
+}
+
+.categories-icon {
+    text-align: center;
+
+}
+
+.categories-icon a,
+.categories-icon p {
+    color: white;
+    transition: color 0.3s ease-in-out;
+}
+
+.categories-icon:hover a,
+.categories-icon:hover p {
+    color: #6c757d;
+}
+
+.modal {
+    a {
+        color: var(--text-color);
+        font-weight: bold;
+        transition: var(--transition);
+    }
+
+    a:hover {
+        color: var(--secondary-color);
+    }
+
+    .modal-header,
+    .modal-footer {
+
+        background-color: var(--background-color);
+    }
+}
+
+.footer-section {
+
+    background-color: var(--background-color);
+
+    a:hover {
+        transition: var(--transition);
+        color: var(--nav-link) !important;
+    }
+
+}
